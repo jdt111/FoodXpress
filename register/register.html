@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="register.css">
+
+  <title>Register</title>
+</head>
+<body>
+   <div class="red-banner" style="margin-bottom: 70px">FoodXpress</div>
+   <div class="login-form">
+
+      <div class="Name" style="display: flex;justify-content: center;align-items: center;">
+          <label for="name"></label>
+          <input type="text" placeholder="Enter name" name="name" required>
+      </div>
+      <!-- <div class = "padding-only"></div> -->
+
+      <div class="email" style="display: flex;justify-content: center;align-items: center;">
+        <label for="email"></label>
+        <input type="text" placeholder="Enter email" name="email" required>
+      </div>
+      <div class="password" style="display: flex;justify-content: center;align-items: center;">
+        <label for="password"></label>
+        <input type="text" placeholder="Enter password" name="password" required>
+      </div>
+      <div class="re-enter-password" style="display: flex;justify-content: center;align-items: center;">
+        <label for="re-enter-password"></label>
+        <input type="text" placeholder="Re-enter password" name="re-enter-password" required>
+      </div>
+      <div class = "padding-only-2"></div>
+      <p style="text-align:center">Register as:</p>
+      <div class = "check-user-type" style='display:flex;align-items:center;justify-content: center;'>
+        <input type="checkbox" id="type1" name="type1" value="customer">
+        <label for="type1">Customer</label><br>
+        <input type="checkbox" id="type2" name="type2" value="driver">
+        <label for="type2">Driver</label><br>
+        <input type="checkbox" id="type3" name="type3" value="Restaurant Manager">
+        <label for="type3">Restaurant Manager</label><br>
+      </div>
+      <br><br>
+      <div class="submit-button" style="text-align: center;">
+        <input type="submit" value="Submit" style="justify-content: center;">
+      </div>
+
+      
+       
+   </div>
+</body>
+</html>

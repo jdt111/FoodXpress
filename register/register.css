@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FEF9A8;
+}
+
+.red-banner{
+    padding: 60px;
+    background: #850506;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type = text],select{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 13px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.check-user-type input{
+    margin: 0px 0px 0px 0px;
+}
+  
+.check-user-type label{
+    margin: 0px 25px 0px 3px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #850506;
+    display: inline block;
+    justify-content: center;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
